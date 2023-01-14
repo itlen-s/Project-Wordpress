@@ -16,7 +16,7 @@
     padding: 39px 0 69px 0;
 }
 
-.logo .logo_img {
+.logo .logo_img, .gift .gift_img, .first .first_img{
     display: block;
     margin: 0 auto;
 }
@@ -79,7 +79,7 @@ h2.title {
     font-weight: 700;
 }
 
-.promo .promo_btn {
+.promo .promo_btn, .gift .gift_btn {
     display: block;
     margin: 73px auto;
     width: 313px;
@@ -96,9 +96,6 @@ h2.title {
     cursor: pointer;
 }
 
-.more {
-
-}
 .more .more_text {
     color:#fff;
     font-family: "Roboto - Thin";
@@ -114,7 +111,7 @@ h2.title {
     margin-top: 13px;
 }
 
-.waiting{
+.waiting {
     min-height: 604px;
     background-color: #efefef;
     padding: 85px 0 75px;
@@ -168,23 +165,6 @@ h2.title {
     font-weight: 300;
     line-height: 21px;
 }
-
-/* .my-flex-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    height: 450px;
-}
-
-.my-flex-block {
-    width: 150px;
-    height: 150px;
-    margin: 0 50px;
-    background-color: red;
-    text-align: center;
-    color: white;
-} */
 
 .opimization {
     min-height: 550px;
@@ -261,4 +241,76 @@ h2.title {
     font-size: 17px;
     font-weight: 300;
     line-height: 20px;
+}
+
+.gift {
+    min-height: 625px;
+    background-color: #efefef;
+}
+
+.gift .img_gift {
+    padding-top: 86px;
+}
+
+.gift .gift_text {
+    margin-top: 46px;
+    font-family: "Roboto - Black";
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.gift .gift_btn {
+    margin-top: 60px;
+}
+
+.first {
+    min-height: 515px;
+    padding: 80 0 70 0;
+}
+/* 
+.first .first_img {
+    padding-top: 80px;
+} */
+
+.first .first_text {
+    margin-top: 36px;
+    font-family: "Roboto - Black";
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.first .first_start {
+    text-transform: uppercase;
+}
+
+.first .first_time {
+    padding: 30px;
+    color:#299cbd;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+footer {    
+    padding-top: 60px;
+    height: 165px;
+    background-color:#252525;
+    color: #efefef;
+}
+footer a {    
+    text-decoration: none;
+    color: #efefef;
+}
+
+footer .container{    
+    text-align: center;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.underlined {
+    text-decoration: underline;
 }
