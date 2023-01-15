@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
 .container {
     position: relative;
     width: 1170px;
@@ -37,9 +41,9 @@ h1 {
 }
 .title {
     color: #F9BF3B;
-    font-family: "Roboto - Black";
+    /* font-family: 'Roboto Black', sans-serif; */
     font-size: 41px;
-    font-weight: 400;
+    font-weight: 900;
     line-height: 24px;
     text-transform: uppercase;
     text-align: center;
@@ -51,9 +55,9 @@ h2.title {
 
 .simple .title_big {
     color: #fff;
-    font-family: "Roboto - Black";
+    /* font-family: "Roboto - Black"; */
     font-size: 80px;
-    font-weight: 400;
+    font-weight: 900;
     /* line-height: 24px;     */
     text-align: center;
     text-transform: uppercase;
@@ -64,7 +68,7 @@ h2.title {
     padding: 0 13px;
     margin-top: 23px;
     color: #fff;
-    font-family: "Roboto Light";
+    /* font-family: "Roboto Light"; */
     font-size: 21px;
     font-weight: 300;
     line-height: 28px;    
@@ -75,7 +79,7 @@ h2.title {
 }
 .promo .promo_text span {
     color: #F9BF3B;
-    font-family: "Roboto - Bold";
+    /* font-family: "Roboto - Bold"; */
     font-weight: 700;
 }
 
@@ -98,9 +102,9 @@ h2.title {
 
 .more .more_text {
     color:#fff;
-    font-family: "Roboto - Thin";
+    font-family: "Roboto Thin";
     font-size: 15px;
-    font-weight: 400;
+    /* font-weight: 300; */
     text-transform: uppercase;
     text-align: center;
 }
@@ -174,9 +178,9 @@ h2.title {
 .opimization .optimization_header {
     margin-left: 391px;
     color: #299cbd;
-    font-family: "Roboto - Black";
+    /* font-family: "Roboto - Black"; */
     font-size: 29px;
-    font-weight: 400;
+    font-weight: 900;
     text-transform: uppercase;
 }
 
@@ -187,11 +191,11 @@ h2.title {
     font-family: Roboto;
     font-size: 17px;
     font-weight: 300;
-    font-family: "Roboto Light";
+    /* font-family: "Roboto Light"; */
 }
 
 .opimization .optimization_text span {    
-    font-family: "Roboto - Bold";
+    /* font-family: "Roboto - Bold"; */
     font-weight: 700;
 }
 
@@ -254,9 +258,9 @@ h2.title {
 
 .gift .gift_text {
     margin-top: 46px;
-    font-family: "Roboto - Black";
+    /* font-family: "Roboto - Black"; */
     font-size: 30px;
-    font-weight: 400;
+    font-weight: 700;
     text-align: center;
 }
 
@@ -275,9 +279,9 @@ h2.title {
 
 .first .first_text {
     margin-top: 36px;
-    font-family: "Roboto - Black";
+    /* font-family: "Roboto - Black"; */
     font-size: 30px;
-    font-weight: 400;
+    font-weight: 700;
     text-align: center;
 }
 
@@ -306,7 +310,7 @@ footer a {
 
 footer .container{    
     text-align: center;
-    font-family: Roboto;
+    /* font-family: Roboto; */
     font-size: 15px;
     font-weight: 300;
 }
